@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "http://example.org/"
+baseURL = "https://mikelsiete.github.io/cv/"
 languageCode = "es"
 title = "Miguel Angel Culebras"
 theme = "hugo-devresume-theme"

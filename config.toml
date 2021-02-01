@@ -1,0 +1,225 @@
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "es"
+title = "Miguel Angel Culebras"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#0B5FFF"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Miguel A. Culebras"
+        tagline = "Liferay Developer"
+        avatar = "avatar.jpg"
+
+
+
+    [params.contact]
+        enable = true
+        location = "Navalcarnero"
+        
+        [[params.contact.list]]
+        icon = "fab fa-twitter-square"
+        url = "https://twitter.com/mikelsiete"
+        text = "mikelsiete"
+        [[params.contact.list]]
+        icon = "fab fa-linkedin"
+        url = "https://www.linkedin.com/in/miguel-angel-culebras-moset/"
+        text = "/in/miguel-angel-culebras-moset/"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Técnicas"
+        [[params.skills.list.items]]
+        details = "Java"
+        [[params.skills.list.items]]
+        details = "Groovy"
+        [[params.skills.list.items]]
+        details = "Velocity/Freemarker"
+        [[params.skills.list.items]]
+        details = "JSP / JSTL"
+        [[params.skills.list.items]]
+        details = "MySQL"
+        [[params.skills.list.items]]
+        details = "JavaScript"
+        [[params.skills.list.items]]
+        details = "jQuery"
+        [[params.skills.list.items]]
+        details = "AJAX"
+        [[params.skills.list.items]]
+        details = "Git"
+        [[params.skills.list.items]]
+        details = "Linux Essentials"
+
+        [[params.skills.list]]
+        title = "Certificaciones"
+        [[params.skills.list.items]]
+        url = "#"
+        details = "Liferay DXP 7.2 Back-End Developer"
+        
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Desarrollo de Aplicaciones Web"
+        university = "IES Pedro Mercedes"
+        dates = "2015 - 2017"
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Desarrollo de Aplicaciones Web"
+        body = "IES Pedro Mercedes"
+        date = "2017"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Español"
+        level = "Nativo"
+        [[params.languages.list]]
+        name = "English"
+        level = "B1"
+
+
+
+    [params.interests]
+        enable = false
+
+        [[params.interests.list]]
+        name = "Climbing"
+        [[params.interests.list]]
+        name = "Snowboarding"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+    [params.summary]
+        enable = true
+        text = "Programador con más de 3 años de experiencia desarrollando código para portales Liferay y Java. En proyectos de migración de portales Liferay de 6.2 EE a 7.2 DXP, mantenimiento de portales sobre la versión 6.2 a 7.x, desarrollo de scripts de groovy, creación de plantillas en Velocity y Freemarker, Administración del portal, experiencia en DXP Cloud de Liferay ... y en herramientas como Gradle, Maven, Git, Eclipse, Jenkins, Docker, etc."
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Liferay Back-End Developer"
+        dates = "2018 - Presente"
+        company = "Serbatic (Grupo VASS)"
+        details = "Mantenimiento de portales Liferay 6.2, migración de portales de Liferay 6.2 EE a Liferay 7.2 DXP en Cloud de Liferay, desarrollo de soluciones en portales Liferay 6.2 a 7.2"
+        [[params.experience.list.items]]
+        details = "Creación de plantillas en Velocity y Freemarker"
+        [[params.experience.list.items]]
+        details = "Hooks en Liferay 6.2"
+        [[params.experience.list.items]]
+        details = "Liferay AUI Validator en formularios"
+        [[params.experience.list.items]]
+        details = "Service Builder"
+        [[params.experience.list.items]]
+        details = "Mantenimiento de portales en DXP Cloud (CLI Tool, Builds, deploy, ...)"
+        [[params.experience.list.items]]
+        details = "Migración de portales 6.2 EE a 7.2 DXP"
+        [[params.experience.list.items]]
+        details = "Creación de módulos Portlet MVC, Spring MVC, PanelAPP, ServiceBuilder, Fragments, ..."
+        [[params.experience.list.items]]
+        details = "Desarrollo sobre Liferay Developer Studio"
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Portal Cooperativa Farmacéutica"
+        meta = "Liferay 7.0"
+        tagline = "Creación de varios portlets y servicios con pasarela de pagos, y zona privada para administración de los mismos"
+
+        [[params.projects.list]]
+        title = "Portal de infraestructura y servicios públicos"
+        meta = "Migración Liferay 6.2 > Liferay 7.2"
+        tagline = "Migración de un portal Liferay 6.2 EE a Liferay DXP 7.2 en el Cloud de Liferay, migrando más de cien sites, usuarios, portlets, serviceBuilder, plantillas, temas, ..."
+
+        [[params.projects.list]]
+        title = "Portal de economía y mercados"
+        meta = "Liferay Portal 6.2 EE"
+        tagline = "Mantenimiento, administración del portal, además de corrección de incidencias en hooks y portlets."
+
+
+
+
+    [params.information]
+        enable = true
+
+
+
+        [[params.information.list]]
+        title = "Intereses"
+        details = "Aprender cosas nuevas cada día... Raspberry Pi, Golang."
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/mikelsiete"
+        title = "mikelsiete"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/miguel-angel-culebras-moset"
+        title = "miguel-angel-culebras-moset"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/mikelsiete"
+        title = "@mikelsiete"
+
+
+
+
+

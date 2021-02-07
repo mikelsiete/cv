@@ -12,8 +12,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 [params]
-    author = "CowboySmall"
-    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+    author = "Miguel Ángel"
+    description = "CV Template For Software Developers"
 
 
     primaryColor = "#0B5FFF"
@@ -24,7 +24,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.profile]
         enable = true
-        name = "Miguel A. Culebras"
+        name = "Miguel Á. Culebras"
         tagline = "Liferay Developer"
         avatar = "avatar.jpg"
 
@@ -139,7 +139,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "Programador con más de 3 años de experiencia desarrollando código para portales Liferay y Java. En proyectos de migración de portales Liferay de 6.2 EE a 7.2 DXP, mantenimiento de portales sobre la versión 6.2 a 7.x, desarrollo de scripts de groovy, creación de plantillas en Velocity y Freemarker, Administración del portal, experiencia en DXP Cloud de Liferay ... y en herramientas como Gradle, Maven, Git, Eclipse, Jenkins, Docker, etc."
+        text = "Programador con más de 3 años de experiencia desarrollando código para portales Liferay y Java. En proyectos de migración de portales Liferay de 6.2 EE a 7.2 DXP, mantenimiento de portales sobre la versión 6.2 a 7.x, desarrollo de scripts de groovy, creación de plantillas en Velocity y Freemarker, administración de portales Liferay, experiencia en DXP Cloud de Liferay… y en herramientas como Gradle, Maven, Git, Eclipse, Jenkins, Docker, etc."
 
 
 
@@ -199,7 +199,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.information.list]]
         title = "Intereses"
-        details = "Aprender cosas nuevas cada día... Raspberry Pi, Golang."
+        details = "Aprender cosas nuevas cada día: Raspberry Pi, Golang..."
 
 
 
